@@ -19,17 +19,24 @@ The answer is: 50million(<math><mn>5</mn><mo>*</mo><msup><mn>10</mn><mn>7</mn></
 
 A. Suppose you have a multi-class classification problem with three classes, trained with a 3 layer network. Let a(3)1=(hΘ(x))1 be the activation of the first output unit, and similarly a(3)2=(hΘ(x))2 and a(3)3=(hΘ(x))3. Then for any input x, it must be the case that a(3)1+a(3)2+a(3)3=1.  
 
-<mark>
+
 B.In a neural network with many layers, we think of each successive layer as being able to use the earlier layers as features, so as to be able to compute increasingly complex functions.
-</mark>
+>解析：Correct.
 
 C.If a neural network is overfitting the data, one solution would be to decrease the regularization parameter λ.
+>解析：Wrong. If a neural network is overfitting the data, one solution would be to increase the regularization parameter λ.
 
 D.If a neural network is overfitting the data, one solution would be to increase the regularization parameter λ.
+>解析：Correct.
 
-####5.You are using the neural network pictured below and have learned the parameters Θ(1)=[1111.72.43.2] (used to compute a(2)) and Θ(2)=[1 0.3 −1.2] (used to compute a(3)} as a function of a(2)). Suppose you swap the parameters for the first hidden layer between its two units so Θ(1)=[111.713.22.4] and also swap the output layer so Θ(2)=[1 −1.2 0.3]. How will this change the value of the output hΘ(x)?
+####5.You are using the neural network pictured below and have learned the parameters Θ(1)=<math><mfenced open="[" close="]"><mtable><mtr><mtd><mn>1</mn></mtd><mtd><mn>2.1</mn></mtd><mtd><mn> 1.3</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>0.6</mn></mtd><mtd><mn>-1.2</mn></mtd></mtr></mtable></math>(used to compute a(2)) and Θ(2)=<math><mfenced open="[" close="]"><mtable><mtr><mtd><mn>1</mn></mtd><mtd><mn>4.5</mn></mtd><mtd><mn> 3.1</mn></mtd></mtr></mtable></math> (used to compute a(3)} as a function of a(2)). Suppose you swap the parameters for the first hidden layer between its two units so Θ(1)=<math><mfenced open="[" close="]"><mtable><mtr><mtd><mn>1</mn></mtd><mtd><mn>0.6</mn></mtd><mtd><mn>-1.2</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>2.1</mn></mtd><mtd><mn>1.3</mn></mtd></mtr></mtable></math> and also swap the output layer so Θ(2)=<math><mfenced open="[" close="]"><mtable><mtr><mtd><mn>1</mn></mtd><mtd><mn>3.1</mn></mtd><mtd><mn> 4.5</mn></mtd></mtr></mtable></math>. How will this change the value of the output hΘ(x)?
 
-<mark>A.It will stay the same. </mark>  
+A.It will stay the same.
+>解析：Correct.  
+
 B.It will increase.  
 C.It will decrese.  
 D.Insufficient information to tell:it may increase or decrease.
+
+
+
