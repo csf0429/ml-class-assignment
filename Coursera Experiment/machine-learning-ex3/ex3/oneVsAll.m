@@ -1,13 +1,4 @@
-function [all_theta] = oneVsAll(X, y, num_labels, lambda)
-%ONEVSALL trains multiple logistic regression classifiers and returns all
-%the classifiers in a matrix all_theta, where the i-th row of all_theta 
-%corresponds to the classifier for label i
-%   [all_theta] = ONEVSALL(X, y, num_labels, lambda) trains num_labels
-%   logisitc regression classifiers and returns each of these classifiers
-%   in a matrix all_theta, where the i-th row of all_theta corresponds 
-%   to the classifier for label i
-
-% Some useful variables
+statl variables
 m = size(X, 1);
 n = size(X, 2);
 
