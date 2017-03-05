@@ -7,14 +7,21 @@ As of this writing I have yet completed the course material; completed assignmen
 
 Experiment list:
 
-* machine-learning-ex1  **[done!]**
+* machine-learning-ex1   **[done!]**
 
-* machine-learning-ex2  **[done!]**
+* machine-learning-ex2   **[done!]**
+
 * machine-learning-ex3	 **[done!]**
+
 * machine-learning-ex4	 **[done!]**
+
 * machine-learning-ex5	 **[done!]**
+
 * machine-learning-ex6	 **[done!]**
+
 * machine-learning-ex7	 **[done!]**
+
 * machine-learning-ex8
+
 * machine-learning-ex9
 
